@@ -31,11 +31,25 @@ body, html {
 }
 .para1{
 	background-image: url("../images/Brasov-Old-Town.jpg");
-	background-position-x: right;
 }
 .para2{
 	background-image: url("../images/Poiana-Brasov.jpg");
-	background-position-x: left 
+}
+.para98{
+	background-image: url("../images/timisoara-1st.jpg");
+}
+.para99{
+	background-image: url("../images/Piata_Victoriei_(Operei).jpg");
+}
+@media only screen and (max-width: 1600px) {
+	.para1{
+		background-position-x: right;
+	}
+}
+@media only	screen and (max-width: 1440px){
+	.para2{
+		background-position-x: left 
+	}
 }
 
 .ca3-scroll-down-arrow {
